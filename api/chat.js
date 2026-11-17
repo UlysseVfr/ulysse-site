@@ -6,7 +6,7 @@ import { PROFILE } from './_profile.js';
 
 const API_KEY = process.env.AI_API_KEY;
 const BASE_URL = (process.env.AI_BASE_URL || 'https://api.groq.com/openai/v1').replace(/\/$/, '');
-const MODEL = process.env.AI_MODEL || 'llama-3.3-70b-versatile';
+const MODEL = process.env.AI_MODEL || 'openai/gpt-oss-120b';
 
 const MAX_MESSAGE_CHARS = 500;     // max length of one visitor message
 const MAX_HISTORY = 10;            // messages of context sent to the AI
@@ -89,7 +89,8 @@ export default async function handler(req, res) {
       body: JSON.stringify({
         model: MODEL,
         temperature: 0.3,
-        max_tokens: 400,
+        max_tokens: 1500, // includes the model's hidden reasoning
+        ...(MODEL.includes('gpt-oss') ? { reasoning_effort: 'low' } : {}),
         messages: [{ role: 'system', content: SYSTEM_PROMPT }, ...messages],
       }),
     });
