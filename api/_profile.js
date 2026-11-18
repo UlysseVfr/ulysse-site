@@ -37,12 +37,12 @@ Aug 2025 – Jul 2026, Geneva, Switzerland
 #### Capital Group internship in detail (from my internship report)
 Context
 - Capital Group is one of the world's largest investment management firms (founded 1931), known for its long-term, research-driven approach.
-- I worked as a Solution Engineer Intern (data engineering work) in a multidisciplinary tech team of software engineers, data engineers and data architects spread across Geneva, London, Luxembourg, Tokyo and Singapore.
+- I worked as a Data Engineering Intern in a multidisciplinary tech team of software engineers, data engineers and data architects spread across Geneva, London, Luxembourg, Tokyo and Singapore.
 - All my projects were part of a large cloud migration: moving financial data (fund, shareholder, performance, asset valuation and reference data) from a legacy on-premise data warehouse to a new cloud architecture. Goals: lower infrastructure and maintenance costs, better scalability, and a platform that makes new technologies such as AI easier to adopt.
 - Why it matters for the business: reliable, timely financial data supports investment professionals' analysis and client advice, and well-governed data reduces regulatory and operational risk.
 
 Project 1: data pipeline design (main project, whole year)
-- Designed and implemented more than 150 pipelines that ingest files from external data providers (mostly CSV), validate and transform them, and make them available in the new cloud environment.
+- Designed and implemented around 170 pipelines that ingest files from external data providers (mostly CSV), validate and transform them, and make them available in the new cloud environment.
 - Four kinds of data: asset valuation, client information, reference data (e.g. currency or country codes) and transactional/accounting data (e.g. pending trades).
 - Architecture (I did not build the framework; I developed pipelines on top of it): an existing internal ingestion framework configured through YAML files (expected file pattern, landing path, delimiter, header, schema, schedule, downstream triggers), orchestrated with Apache Airflow DAGs and running on AWS. Raw files land in Amazon S3, get typed and keyed, then move to a curated zone queryable with Amazon Athena.
 - Transformations then happen in a Databricks Lakehouse following the medallion architecture: Bronze (raw history), Silver (cleaning, deduplication, missing values, consistent formats), Gold (business-ready, aggregated datasets for reporting and external publication).
@@ -61,7 +61,7 @@ What I would improve (honest self-assessment)
 - Automate more: many YAML configurations followed similar patterns, and reusable templates or generation scripts would have saved time.
 - Take a broader view of the whole program (dependencies, priorities) instead of focusing only on my own tasks.
 - Invest more in testing and monitoring strategies, since shared environments and long DAG run times made validation slow.
-- Spend more time understanding how business users actually use the reports, and explore Power BI Desktop for interactive dashboards.
+- Spend more time understanding how business users actually use the reports.
 
 Key lessons
 - The internship applied my Master's coursework directly, especially "Technologies and Architectures for Data" (cloud architectures, pipelines, Lakehouse, Databricks, SQL, ingestion).
