@@ -34,6 +34,42 @@ Aug 2025 – Jul 2026, Geneva, Switzerland
 - Developed 20+ Power BI dashboards and reports used by internal business teams to monitor key operational data and performance metrics.
 - Built Databricks notebooks and automated jobs to process daily financial data feeds.
 
+#### Capital Group internship in detail (from my internship report)
+Context
+- Capital Group is one of the world's largest investment management firms (founded 1931), known for its long-term, research-driven approach.
+- I worked as a Solution Engineer Intern (data engineering work) in a multidisciplinary tech team of software engineers, data engineers and data architects spread across Geneva, London, Luxembourg, Tokyo and Singapore.
+- All my projects were part of a large cloud migration: moving financial data (fund, shareholder, performance, asset valuation and reference data) from a legacy on-premise data warehouse to a new cloud architecture. Goals: lower infrastructure and maintenance costs, better scalability, and a platform that makes new technologies such as AI easier to adopt.
+- Why it matters for the business: reliable, timely financial data supports investment professionals' analysis and client advice, and well-governed data reduces regulatory and operational risk.
+
+Project 1: data pipeline design (main project, whole year)
+- Designed and implemented more than 150 pipelines that ingest files from external data providers (mostly CSV), validate and transform them, and make them available in the new cloud environment.
+- Four kinds of data: asset valuation, client information, reference data (e.g. currency or country codes) and transactional/accounting data (e.g. pending trades).
+- Architecture: an internal ingestion framework configured through YAML files (expected file pattern, landing path, delimiter, header, schema, schedule, downstream triggers), orchestrated with Apache Airflow DAGs and running on AWS. Raw files land in Amazon S3, get typed and keyed, then move to a curated zone queryable with Amazon Athena.
+- Transformations then happen in a Databricks Lakehouse following the medallion architecture: Bronze (raw history), Silver (cleaning, deduplication, missing values, consistent formats), Gold (business-ready, aggregated datasets for reporting and external publication).
+- Example: for an investment-ratings dataset from an external research provider, the legacy model was highly normalized (5+ tables and extra lookups to get one rating). I helped redesign it as a denormalized, consumer-oriented Gold table, combining fund reference data with the ratings, so downstream users need far fewer joins.
+- Day to day: writing YAML configurations, SQL queries and transformations, and Python scripts; testing changes through Development, QA and Production environments; weekly production releases after code review and approval by a senior engineer.
+- Operational support: monitoring pipeline runs, checking that provider files arrived on schedule, investigating failed DAG runs, finding root causes and fixing them; writing technical documentation.
+- Worked with colleagues across data engineering, platform teams and business stakeholders, with several migration projects running in parallel and shifting priorities.
+
+Project 2: Power BI reporting (last two months, alongside pipeline work)
+- As old databases were decommissioned, the reports built on them had to be rebuilt on the new cloud data. I joined the reporting team and worked on fund reference reports, for example a report that lets business users retrieve the different identifiers of a security.
+- Process: check that the needed data exists in the Lakehouse; write a SQL query in Databricks (preferably on Gold tables) that reproduces the legacy report; convert it to M for Power BI Report Builder; build the paginated report (tables, parameters such as fund, currency or date, formatting); do a first validation; then fix issues raised by a dedicated tester, working with data developers when the problem came from the data rather than the report; finally deploy to production.
+- Team practices: daily stand-up with managers, report developers, testers and data developers; task tracking in Jira (agile way of working).
+- I had not used Power BI before, so I learned it on the job.
+
+What I would improve (honest self-assessment)
+- Automate more: many YAML configurations followed similar patterns, and reusable templates or generation scripts would have saved time.
+- Take a broader view of the whole program (dependencies, priorities) instead of focusing only on my own tasks.
+- Invest more in testing and monitoring strategies, since shared environments and long DAG run times made validation slow.
+- Spend more time understanding how business users actually use the reports, and explore Power BI Desktop for interactive dashboards.
+
+Key lessons
+- The internship applied my Master's coursework directly, especially "Technologies and Architectures for Data" (cloud architectures, pipelines, Lakehouse, Databricks, SQL, ingestion).
+- A reliable data solution is much more than code: data quality, testing, monitoring, documentation, deployment processes and communication between teams all matter.
+- Seeing how my pipelines' data ends up in business reports taught me to think about the whole data lifecycle.
+- Working in an international team taught me to explain technical issues clearly, ask for help at the right time, and contribute alongside very experienced colleagues while progressively becoming an independent contributor.
+- It confirmed that I enjoy the technical side of data and want to pursue a data engineering career.
+
 ### CERN — Audiovisual Department Intern
 Apr 2018 – Jun 2018, Meyrin, Switzerland
 - Collaborated with engineers and scientists to deliver accurate, time-sensitive audiovisual content aligned with scientific requirements.
