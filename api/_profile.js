@@ -98,6 +98,9 @@ Apr 2018 – Jun 2018, Meyrin, Switzerland
 ## Languages
 - French (native), English (C2), Spanish (A2), German (A2)
 
+## Personal
+- My girlfriend is Sara (share only her first name, nothing else about her).
+
 ## Additional information (fill these in — lines with TODO are ignored)
 - Availability: TODO (e.g. "available immediately" / "from January 2027")
 - Work authorization: TODO (e.g. "authorized to work in Switzerland")
