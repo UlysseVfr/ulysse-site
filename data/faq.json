@@ -7,81 +7,246 @@
   "entries": [
     {
       "id": "intro",
-      "keywords": ["who are you", "about you", "yourself", "introduce", "profile", "qui es tu", "qui etes vous", "presente", "presentez", "profil", "toi"],
+      "keywords": [
+        "who are you",
+        "about you",
+        "yourself",
+        "introduce",
+        "profile",
+        "qui es tu",
+        "qui etes vous",
+        "presente",
+        "presentez",
+        "profil",
+        "toi"
+      ],
       "en": "I'm Ulysse, a Data Engineer based in Geneva. I recently spent a year at Capital Group migrating around 170 data pipelines to AWS, and I hold a Master's in Business Analytics from the University of Geneva. I'm now looking for an entry-level Data Engineering role.",
       "fr": "Je suis Ulysse, Data Engineer basé à Genève. J'ai passé un an chez Capital Group à migrer environ 170 pipelines de données vers AWS, et je suis diplômé d'un Master en Business Analytics de l'Université de Genève. Je cherche aujourd'hui un poste de Data Engineer junior."
     },
     {
       "id": "experience",
-      "keywords": ["experience", "work", "worked", "job", "capital group", "intern", "internship", "career", "background", "travail", "travaille", "poste", "stage", "parcours", "carriere"],
+      "keywords": [
+        "experience",
+        "work",
+        "worked",
+        "job",
+        "capital group",
+        "intern",
+        "internship",
+        "career",
+        "background",
+        "travail",
+        "travaille",
+        "poste",
+        "stage",
+        "parcours",
+        "carriere"
+      ],
       "en": "My main experience is a year as a Data Engineering Intern at Capital Group in Geneva (Aug 2025 – Jul 2026):\n- Migrated ~170 on-premise pipelines to AWS (S3, Lambda, CloudWatch, Athena) with Airflow and dbt, keeping full data parity\n- Managed CI/CD pipelines with 300+ daily jobs\n- Built 20+ Power BI dashboards and Databricks jobs for daily financial feeds\nI worked in a 15-person team spread across Geneva, London, Singapore, Tokyo and Luxembourg.",
       "fr": "Mon expérience principale : un an comme Data Engineering Intern chez Capital Group à Genève (août 2025 – juillet 2026) :\n- Migration d'environ 170 pipelines on-premise vers AWS (S3, Lambda, CloudWatch, Athena) avec Airflow et dbt, en garantissant la parité des données\n- Gestion de pipelines CI/CD avec plus de 300 jobs quotidiens\n- Plus de 20 dashboards Power BI et des jobs Databricks pour des flux financiers quotidiens\nJ'ai travaillé dans une équipe de 15 personnes entre Genève, Londres, Singapour, Tokyo et Luxembourg."
     },
     {
       "id": "cern",
-      "keywords": ["cern", "audiovisual", "audiovisuel"],
+      "keywords": [
+        "cern",
+        "audiovisual",
+        "audiovisuel"
+      ],
       "en": "In 2018 I did an internship in the Audiovisual Department at CERN, working with engineers and scientists to deliver accurate, time-sensitive content aligned with scientific requirements.",
       "fr": "En 2018, j'ai fait un stage au département audiovisuel du CERN, en collaboration avec des ingénieurs et des scientifiques pour produire des contenus précis, dans des délais serrés, fidèles aux exigences scientifiques."
     },
     {
       "id": "education",
-      "keywords": ["study", "studies", "studied", "education", "degree", "master", "bachelor", "university", "school", "diploma", "gpa", "etudes", "etudie", "diplome", "universite", "ecole", "formation", "licence"],
+      "keywords": [
+        "study",
+        "studies",
+        "studied",
+        "education",
+        "degree",
+        "master",
+        "bachelor",
+        "university",
+        "school",
+        "diploma",
+        "gpa",
+        "etudes",
+        "etudie",
+        "diplome",
+        "universite",
+        "ecole",
+        "formation",
+        "licence"
+      ],
       "en": "I hold a Master in Business Analytics from the University of Geneva (2024–2026, GPA 5.41/6), with coursework in machine learning, data management, data quality and data architectures. Before that I did a Bachelor in Economics and Management, also in Geneva, plus earlier studies in applied maths & computer science (Lille), digital media (Edinburgh) and multimedia (Grenoble).",
       "fr": "Je suis titulaire d'un Master en Business Analytics de l'Université de Genève (2024–2026, moyenne 5.41/6), avec des cours en machine learning, gestion et qualité des données et architectures data. Avant cela, un Bachelor en Économie et Management à Genève, et des études en mathématiques appliquées et informatique (Lille), médias numériques (Édimbourg) et multimédia (Grenoble)."
     },
     {
       "id": "skills",
-      "keywords": ["skill", "skills", "tool", "tools", "stack", "tech", "technologies", "competence", "competences", "outil", "outils", "maitrise", "maitrises", "technos", "langage", "programming", "programmation"],
+      "keywords": [
+        "skill",
+        "skills",
+        "tool",
+        "tools",
+        "stack",
+        "tech",
+        "technologies",
+        "competence",
+        "competences",
+        "outil",
+        "outils",
+        "maitrise",
+        "maitrises",
+        "technos",
+        "langage",
+        "programming",
+        "programmation"
+      ],
       "en": "My main tools:\n- Languages: Python, SQL, R\n- Cloud & data: AWS (S3, Lambda, CloudWatch, Athena), Databricks, dbt\n- Orchestration: Apache Airflow, Kubernetes\n- CI/CD: GitHub, Harness\n- BI: Power BI\n- Project tools: Jira (Scrum), Confluence",
       "fr": "Mes principaux outils :\n- Langages : Python, SQL, R\n- Cloud & data : AWS (S3, Lambda, CloudWatch, Athena), Databricks, dbt\n- Orchestration : Apache Airflow, Kubernetes\n- CI/CD : GitHub, Harness\n- BI : Power BI\n- Gestion de projet : Jira (Scrum), Confluence"
     },
     {
       "id": "aws",
-      "keywords": ["aws", "cloud", "s3", "lambda", "athena", "cloudwatch", "migration", "migrate", "migrer"],
+      "keywords": [
+        "aws",
+        "cloud",
+        "s3",
+        "lambda",
+        "athena",
+        "cloudwatch",
+        "migration",
+        "migrate",
+        "migrer"
+      ],
       "en": "Yes, AWS is at the core of my experience: at Capital Group I migrated around 170 legacy pipelines to S3, Lambda, CloudWatch and Athena, orchestrated with Airflow, while preserving full data parity.",
       "fr": "Oui, AWS est au cœur de mon expérience : chez Capital Group, j'ai migré environ 170 pipelines legacy vers S3, Lambda, CloudWatch et Athena, orchestrés avec Airflow, en préservant la parité totale des données."
     },
     {
       "id": "python-sql",
-      "keywords": ["python", "sql", "dbt", "airflow", "databricks"],
+      "keywords": [
+        "python",
+        "sql",
+        "dbt",
+        "airflow",
+        "databricks"
+      ],
       "en": "Python and SQL are my everyday tools. I've used them with Airflow, dbt and Databricks to build and run production data pipelines, including automated jobs processing daily financial data feeds.",
       "fr": "Python et SQL sont mes outils du quotidien. Je les ai utilisés avec Airflow, dbt et Databricks pour construire et faire tourner des pipelines en production, notamment des jobs automatisés traitant des flux financiers quotidiens."
     },
     {
       "id": "powerbi",
-      "keywords": ["power bi", "powerbi", "dashboard", "dashboards", "reporting", "bi", "visualization", "visualisation"],
+      "keywords": [
+        "power bi",
+        "powerbi",
+        "dashboard",
+        "dashboards",
+        "reporting",
+        "bi",
+        "visualization",
+        "visualisation"
+      ],
       "en": "I built 20+ Power BI dashboards and reports at Capital Group, used by internal business teams to monitor key operational data and performance metrics.",
       "fr": "J'ai développé plus de 20 dashboards et rapports Power BI chez Capital Group, utilisés par les équipes métier pour suivre les données opérationnelles et les indicateurs de performance."
     },
     {
       "id": "languages",
-      "keywords": ["language", "languages", "speak", "english", "french", "german", "spanish", "langue", "langues", "parles", "parlez", "anglais", "francais", "allemand", "espagnol"],
+      "keywords": [
+        "language",
+        "languages",
+        "speak",
+        "english",
+        "french",
+        "german",
+        "spanish",
+        "langue",
+        "langues",
+        "parles",
+        "parlez",
+        "anglais",
+        "francais",
+        "allemand",
+        "espagnol"
+      ],
       "en": "I'm a native French speaker, fully fluent in English (C2), and I have basic Spanish and German (A2).",
       "fr": "Je suis francophone natif, je parle couramment anglais (C2), et j'ai des bases en espagnol et en allemand (A2)."
     },
     {
       "id": "looking",
-      "keywords": ["looking for", "looking", "open to", "position", "role", "hire", "hiring", "available", "availability", "recherche", "cherches", "cherchez", "disponible", "disponibilite", "embauche", "recrute"],
+      "keywords": [
+        "looking for",
+        "looking",
+        "open to",
+        "position",
+        "role",
+        "hire",
+        "hiring",
+        "available",
+        "availability",
+        "recherche",
+        "cherches",
+        "cherchez",
+        "disponible",
+        "disponibilite",
+        "embauche",
+        "recrute"
+      ],
       "en": "I'm looking for an entry-level Data Engineering role where I can bring my pipeline, cloud and BI experience, and keep growing my domain and tooling expertise. For availability and details, feel free to email me at ulysse.vaufrey@gmail.com.",
       "fr": "Je recherche un poste de Data Engineer junior où apporter mon expérience en pipelines, cloud et BI, tout en continuant à développer mon expertise métier et technique. Pour les disponibilités et les détails, écrivez-moi à ulysse.vaufrey@gmail.com."
     },
     {
       "id": "certifications",
-      "keywords": ["certification", "certifications", "certificate", "certificat", "ibm", "generative", "genai", "ai", "ia"],
+      "keywords": [
+        "certification",
+        "certifications",
+        "certificate",
+        "certificat",
+        "ibm",
+        "generative",
+        "genai",
+        "ai",
+        "ia"
+      ],
       "en": "I'm currently completing the IBM Generative AI Engineering Professional Certificate.",
       "fr": "Je suis en train de passer le IBM Generative AI Engineering Professional Certificate."
     },
     {
       "id": "contact",
-      "keywords": ["contact", "email", "mail", "reach", "linkedin", "joindre", "contacter", "ecrire"],
+      "keywords": [
+        "contact",
+        "email",
+        "mail",
+        "reach",
+        "linkedin",
+        "joindre",
+        "contacter",
+        "ecrire"
+      ],
       "en": "The best way to reach me is by email at ulysse.vaufrey@gmail.com, or on LinkedIn: linkedin.com/in/ulysse-vaufrey.",
       "fr": "Le plus simple est de m'écrire à ulysse.vaufrey@gmail.com, ou sur LinkedIn : linkedin.com/in/ulysse-vaufrey."
     },
     {
       "id": "teamwork",
-      "keywords": ["team", "teamwork", "collaborate", "collaboration", "international", "remote", "equipe", "collaborer"],
+      "keywords": [
+        "team",
+        "teamwork",
+        "collaborate",
+        "collaboration",
+        "international",
+        "remote",
+        "equipe",
+        "collaborer"
+      ],
       "en": "At Capital Group I worked in a distributed team of 15 people across Geneva, London, Singapore, Tokyo and Luxembourg, using Jira (Scrum) and Confluence, and delivering reporting for cross-functional business teams.",
       "fr": "Chez Capital Group, j'ai travaillé dans une équipe distribuée de 15 personnes entre Genève, Londres, Singapour, Tokyo et Luxembourg, avec Jira (Scrum) et Confluence, en livrant du reporting pour des équipes métier transverses."
+    },
+    {
+      "id": "girlfriend",
+      "keywords": [
+        "girlfriend",
+        "copine",
+        "petite amie"
+      ],
+      "en": "My girlfriend is Sara 🙂",
+      "fr": "Ma copine s'appelle Sara 🙂"
     }
   ]
 }
