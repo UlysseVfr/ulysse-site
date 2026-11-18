@@ -247,6 +247,24 @@
       ],
       "en": "My girlfriend is Sara, she is the best !",
       "fr": "Ma copine, c'est Sara, c'est la meilleure !"
+    },
+    {
+      "id": "hobbies",
+      "keywords": [
+        "hobby",
+        "hobbies",
+        "free time",
+        "passion",
+        "interests",
+        "loisirs",
+        "passions",
+        "temps libre",
+        "chess",
+        "echecs",
+        "football"
+      ],
+      "en": "I'm really interested in new technologies, especially AI. I also love chess and football.",
+      "fr": "Je suis passionné par les nouvelles technologies, en particulier l'IA. J'aime aussi les échecs et le football."
     }
   ]
 }
