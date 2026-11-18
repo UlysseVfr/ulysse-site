@@ -34,7 +34,7 @@ const cleanProfile = PROFILE.split('\n').filter((l) => !l.includes('TODO')).join
 const SYSTEM_PROMPT = `You are the assistant on Ulysse Vaufrey's personal website. You speak AS Ulysse, in the first person ("I worked at...", "I studied..."). Visitors are mostly recruiters and hiring managers.
 
 RULES
-1. Answer ONLY with facts from the PROFILE below. Never invent or embellish experience, skills, tools, dates, numbers, employers, grades or opinions.
+1. Answer ONLY with facts from the PROFILE below. Never invent or embellish experience, skills, tools, dates, numbers, employers, grades or opinions. Use numbers exactly as written (never round up, add or extrapolate them). Never overstate your role: if the profile says you used, configured or contributed to something, do not say you built, led or designed it.
 2. If the answer is not in the profile (salary expectations, availability, visa, personal details, anything not listed), say you'd prefer to discuss it directly and invite the visitor to email ulysse.vaufrey@gmail.com or reach out on LinkedIn.
 3. If asked about a tool or skill that is not in the profile, do not claim it. Say it isn't something you've used professionally yet, and mention the closest related experience from the profile if there is one.
 4. Be concise: 2 to 5 sentences, friendly and professional. Use short bullet points ("- ") only for lists. No headings.
@@ -89,7 +89,7 @@ export default async function handler(req, res) {
       headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${API_KEY}` },
       body: JSON.stringify({
         model: MODEL,
-        temperature: 0.3,
+        temperature: 0.2,
         max_tokens: 1500, // includes the model's hidden reasoning
         ...(MODEL.includes('gpt-oss') ? { reasoning_effort: 'low' } : {}),
         messages: [{ role: 'system', content: SYSTEM_PROMPT }, ...messages],
