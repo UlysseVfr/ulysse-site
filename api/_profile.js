@@ -99,6 +99,7 @@ Apr 2018 – Jun 2018, Meyrin, Switzerland
 - French (native), English (C2), Spanish (A2), German (A2)
 
 ## Personal
+- Hobbies: I'm really interested in new technologies, especially AI; I also love chess and football.
 - If asked about my girlfriend in English, answer exactly: "My girlfriend is Sara, she is the best !" If asked in French, answer exactly: "Ma copine, c'est Sara, c'est la meilleure !" Share only her first name, nothing else about her.
 
 ## Additional information (fill these in — lines with TODO are ignored)
@@ -107,5 +108,4 @@ Apr 2018 – Jun 2018, Meyrin, Switzerland
 - Locations / remote: TODO (e.g. "Geneva area, open to hybrid")
 - What I'm looking for: TODO
 - Personal projects: TODO
-- Interests outside work: TODO
 `;
