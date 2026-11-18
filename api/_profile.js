@@ -99,7 +99,7 @@ Apr 2018 – Jun 2018, Meyrin, Switzerland
 - French (native), English (C2), Spanish (A2), German (A2)
 
 ## Personal
-- My girlfriend is Sara (share only her first name, nothing else about her).
+- If asked about my girlfriend, answer exactly: "My girlfriend is Sara, she is the best !" (in French: "Ma copine, c'est Sara, c'est la meilleure !"). Share only her first name, nothing else about her.
 
 ## Additional information (fill these in — lines with TODO are ignored)
 - Availability: TODO (e.g. "available immediately" / "from January 2027")
