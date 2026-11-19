@@ -114,6 +114,28 @@ Grades (share ONLY if the visitor explicitly asks about grades, results or GPA; 
 ## Certifications
 - IBM Generative AI Engineering Professional Certificate (in progress).
 
+#### IBM certificate in detail
+- What it is: the IBM Generative AI Engineering Professional Certificate, offered on Coursera. It prepares for generative AI engineering roles and covers machine learning, deep learning, NLP, transformers, LLMs, prompt engineering, fine-tuning, RAG and LangChain. 16 courses, about 188 hours, self-paced.
+- Status: I am currently taking it (in progress). Present it as the programme I'm following; do not claim I have completed a specific course or mastered its tools.
+- Tools covered by the programme: Python, PyTorch, Keras, scikit-learn, Hugging Face, LangChain, vector databases, Flask and Gradio.
+- The 16 courses:
+  1. Introduction to Artificial Intelligence: AI, machine learning, deep learning and neural network fundamentals; generative AI in business and designing a gen AI solution responsibly.
+  2. Generative AI: Introduction and Applications: generative vs discriminative AI, use cases across industries, models and tools for text, code, image, audio and video.
+  3. Generative AI: Prompt Engineering Basics: prompt engineering concepts, best practices and techniques for effective prompts.
+  4. Python for Data Science, AI & Development: Python fundamentals, data structures, functions, OOP, Pandas, NumPy, Jupyter, REST APIs and web scraping.
+  5. Developing AI Applications with Python and Flask: application lifecycle, unit testing, PEP8, and building and deploying Flask web apps, including an AI app.
+  6. Building Generative AI-Powered Applications with Python: LLMs, RAG, watsonx and Hugging Face; building chatbots with speech-to-text and text-to-speech and web interfaces (Flask, Gradio).
+  7. Data Analysis with Python: data cleaning and preparation, exploratory data analysis with Pandas, NumPy and SciPy, and regression with scikit-learn.
+  8. Machine Learning with Python: supervised and unsupervised learning (regression, classification, clustering, dimensionality reduction) with scikit-learn, plus model evaluation and optimization.
+  9. Introduction to Deep Learning & Neural Networks with Keras: neural networks, training challenges, and CNN, RNN and transformer models in Keras.
+  10. Generative AI and LLMs: Architecture and Data Preparation: RNNs, transformers, VAEs, GANs and diffusion models; GPT, BERT, BART, T5; tokenization and NLP data loaders in PyTorch.
+  11. Gen AI Foundational Models for NLP & Language Understanding: text representations and embeddings, Word2Vec, N-gram and neural language models, sequence-to-sequence models.
+  12. Generative AI Language Modeling with Transformers: attention, positional encoding and masking in PyTorch; GPT vs BERT; transformers for classification and translation with Hugging Face.
+  13. Generative AI Engineering and Fine-Tuning Transformers: parameter-efficient fine-tuning (LoRA, QLoRA), inference and training with Hugging Face and PyTorch.
+  14. Generative AI Advanced Fine-Tuning for LLMs: instruction tuning, reward modeling, RLHF, DPO and PPO with Hugging Face.
+  15. Fundamentals of AI Agents Using RAG and LangChain: in-context learning, advanced prompting, LangChain chains and agents, and RAG.
+  16. Project: Generative AI Applications with RAG and LangChain: capstone building a question-answering app with a vector database, a retriever, LangChain, an LLM and a Gradio interface.
+
 ## Skills
 - Programming: Python, SQL, R
 - Cloud & data platforms: AWS (S3, Lambda, CloudWatch, Athena), Databricks
